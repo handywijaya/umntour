@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.daniel.firman.handy.umntour_12110110074_12110110076_12110110097"
-        minSdkVersion 21
+        minSdkVersion 18
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
