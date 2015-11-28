@@ -1,10 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar">
-    </style>
-    <style name="ButtonGo">
-        <item name="android:color">@android:color/holo_green_light</item>
+    <style name="AppTheme" parent="android:Theme.Holo.Wallpaper.NoTitleBar">
     </style>
 
 
