@@ -8,21 +8,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
+import android.widget.ImageView;
 
-public class MainActivity extends Activity {
+public class Lantai_6_2 extends Activity {
+
+    ImageView ivMoveBackward;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Remove title bar
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        //Remove notification bar
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_lantai_6_2);
 
-        Button btnBegin = (Button) findViewById(R.id.btnBegin);
-        btnBegin.setOnClickListener(new View.OnClickListener() {
+        ivMoveBackward = (ImageView) findViewById(R.id.ivMoveBackward);
+        ivMoveBackward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), Lantai_6_1.class);
@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_lantai_6_2, menu);
         return true;
     }
 
