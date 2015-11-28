@@ -36,7 +36,9 @@ public class Lantai_6_4 extends Activity {
         ivMoveLeft.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Moving Left", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(getApplicationContext(), Lantai_6_7.class);
+                startActivity(i);
+                finish();
             }
         });
 
@@ -44,7 +46,9 @@ public class Lantai_6_4 extends Activity {
         ivMoveLift.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Moving to Lift", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(getApplicationContext(), Lantai_6_5.class);
+                startActivity(i);
+                finish();
             }
         });
 
@@ -60,7 +64,7 @@ public class Lantai_6_4 extends Activity {
         ivEnter601.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Lantai_6_7.class);
+                Intent i = new Intent(getApplicationContext(), Big_Classroom_Wood.class);
                 startActivity(i);
                 finish();
             }

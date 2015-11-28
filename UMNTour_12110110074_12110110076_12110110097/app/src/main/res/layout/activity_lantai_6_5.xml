@@ -4,9 +4,23 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.daniel.firman.handy.umntour_12110110074_12110110076_12110110097.Lantai_6_5">
+    tools:context="com.example.daniel.firman.handy.umntour_12110110074_12110110076_12110110097.Lantai_6_5"
+    android:background="@drawable/lt6_5">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ImageView android:id="@+id/ivMoveForward"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/move_position"
+        android:layout_marginEnd="58dp"
+        android:layout_above="@+id/ivMoveBackward"
+        android:layout_toStartOf="@+id/ivMoveBackward"
+        android:layout_marginBottom="27dp" />
+
+    <ImageView android:id="@+id/ivMoveBackward"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/move_position"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -1,16 +1,35 @@
 package com.example.daniel.firman.handy.umntour_12110110074_12110110076_12110110097;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.ImageView;
 
 public class Lantai_6_6 extends Activity {
 
+    ImageView ivMoveBackward;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);;
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_lantai_6_6);
+
+        ivMoveBackward = (ImageView) findViewById(R.id.ivMoveBackward);
+        ivMoveBackward.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Lantai_6_5.class);
+                startActivity(i);
+                finish();
+            }
+        });
     }
 
     @Override

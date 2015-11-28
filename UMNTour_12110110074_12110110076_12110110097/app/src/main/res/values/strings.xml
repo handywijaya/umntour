@@ -11,4 +11,11 @@
     <string name="title_activity_lantai_6_6">Lantai_6_6</string>
     <string name="title_activity_lantai_6_7">Lantai_6_7</string>
     <string name="title_activity_lantai_6_8">Lantai_6_8</string>
+    <string name="title_activity_normal__classroom">Normal_Classroom</string>
+    <string name="title_activity_big__classroom">Big_Classroom</string>
+    <string name="title_activity_big__classroom__middle">Big_Classroom_Middle</string>
+    <string name="title_activity_big__classroom__wood">Big_Classroom_Wood</string>
+    <string name="title_activity_lab__pc">Lab_PC</string>
+    <string name="title_activity_lab__mac">Lab_MAC</string>
+    <string name="title_activity_painting__room">Painting_Room</string>
 </resources>

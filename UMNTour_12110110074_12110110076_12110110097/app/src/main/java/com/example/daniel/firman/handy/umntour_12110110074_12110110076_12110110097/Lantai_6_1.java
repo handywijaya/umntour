@@ -52,7 +52,9 @@ public class Lantai_6_1 extends Activity {
         ivMoveBackward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Moving Backward", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(getApplicationContext(), Lantai_6_8.class);
+                startActivity(i);
+                finish();
             }
         });
 

@@ -39,19 +39,58 @@
         </activity>
         <activity
             android:name=".Lantai_6_5"
-            android:label="@string/title_activity_lantai_6_5" >
+            android:label="@string/title_activity_lantai_6_5"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name=".Lantai_6_6"
-            android:label="@string/title_activity_lantai_6_6" >
+            android:label="@string/title_activity_lantai_6_6"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name=".Lantai_6_7"
-            android:label="@string/title_activity_lantai_6_7" >
+            android:label="@string/title_activity_lantai_6_7"
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name=".Lantai_6_8"
-            android:label="@string/title_activity_lantai_6_8" >
+            android:label="@string/title_activity_lantai_6_8"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Normal_Classroom"
+            android:label="@string/title_activity_normal__classroom"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Big_Classroom"
+            android:label="@string/title_activity_big__classroom"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Big_Classroom_Middle"
+            android:label="@string/title_activity_big__classroom__middle"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Big_Classroom_Wood"
+            android:label="@string/title_activity_big__classroom__wood"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Lab_PC"
+            android:label="@string/title_activity_lab__pc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Lab_MAC"
+            android:label="@string/title_activity_lab__mac"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Painting_Room"
+            android:label="@string/title_activity_painting__room"
+            android:screenOrientation="landscape" >
         </activity>
     </application>
 
